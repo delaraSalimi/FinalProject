@@ -12,5 +12,5 @@ class VerifyCsrfToken extends BaseVerifier
      * @var array
      */
     protected $except = [
-      '/developers/action'    ];
+      '/developers/action' , '/companies/action'    ];
 }
